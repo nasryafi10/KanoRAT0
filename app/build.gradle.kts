@@ -58,7 +58,7 @@ android {
 }
 
 dependencies {
-    implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar", "*.aar"))))
+    implementation 'com.github.User:Repo:Tag'
     
     //appCompat features
     implementation("androidx.appcompat:appcompat:1.7.0")
