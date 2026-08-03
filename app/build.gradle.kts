@@ -58,7 +58,7 @@ android {
 }
 
 dependencies {
-    implementation 'com.github.User:Repo:Tag'
+    implementation("com.github.nasryafi10:KanoRAT0:Tag")
     
     //appCompat features
     implementation("androidx.appcompat:appcompat:1.7.0")
