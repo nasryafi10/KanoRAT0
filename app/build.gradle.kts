@@ -59,7 +59,7 @@ android {
 }
 
 dependencies {
-    implementation("com.github.nasryafi10:KanoRAT0:1.0.10")
+    implementation("com.github.nasryafi10:KanoRAT0:1.0.11")
     
     //appCompat features
     implementation("androidx.appcompat:appcompat:1.7.0")
@@ -139,7 +139,7 @@ afterEvaluate {
                 from(components.findByName("release"))
                 groupId = "com.github.nasryfi10"
                 artifactId = "KanoRATO"
-                version = "1.0.9"
+                version = "1.0.11"
             }
         }
     }
