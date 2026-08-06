@@ -131,18 +131,15 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 }
-publishing {
-        singleVariant("release") {
-            withSourcesJar()
-        }
-    }
-}
 
 afterEvaluate {
     publishing {
         publications {
-            register<MavenPublication>("release") {
-                from(components["release"])
+            create<MavenPublication>("release") {
+                from(components.findByName("release"))
+                groupId = "com.github.nasryfi10"
+                artifactId = "KanoRATO"
+                version = "1.0.0"
             }
         }
     }
