@@ -59,7 +59,6 @@ android {
 }
 
 dependencies {
-    implementation("com.github.nasryafi10:KanoRAT0:1.0.11")
     
     //appCompat features
     implementation("androidx.appcompat:appcompat:1.7.0")
