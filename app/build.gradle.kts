@@ -139,7 +139,7 @@ afterEvaluate {
                 from(components.findByName("release"))
                 groupId = "com.github.nasryfi10"
                 artifactId = "KanoRATO"
-                version = "1.0.8"
+                version = "1.0.9"
             }
         }
     }
