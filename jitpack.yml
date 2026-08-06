@@ -1,9 +1,6 @@
 jdk:
   - openjdk17
 
-before_install:
-  - ./gradlew tasks
-
 install:
-  - ./gradlew assembleRelease publishToMavenLocal
+  - ./gradlew assembleRelease
   
